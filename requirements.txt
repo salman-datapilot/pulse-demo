@@ -1,0 +1,9 @@
+# PULSE Demo dependencies
+# Install PyTorch CPU separately first:
+#   python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+streamlit==1.28.2
+ultralytics
+opencv-python
+numpy
+pillow

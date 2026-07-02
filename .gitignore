@@ -1,0 +1,20 @@
+# Don't commit runtime data / feature caches
+data/cnic_front/*
+data/cnic_back/*
+data/electricity_bill/*
+data/predictions/duplicated/*
+data/predictions/non_duplicated/*
+data/predictions/inconclusive/*
+**/.uc4_index.pkl
+
+best.tflite
+test.ipynb
+
+# Keep the folder structure
+!data/**/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
