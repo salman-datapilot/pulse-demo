@@ -267,19 +267,19 @@ if not st.session_state.show_results:
     st.markdown('<div class="upload-card"><div class="upload-card-title">🪪 CNIC — Front</div>', unsafe_allow_html=True)
     cnic_front = st.file_uploader("CNIC Front", type=IMAGE_TYPES, key="cnic_front_u", label_visibility="hidden")
     if cnic_front:
-        st.image(cnic_front, caption="CNIC (front) preview", use_column_width=True)
+        st.image(cnic_front, caption="CNIC (front) preview", width=250)
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="upload-card"><div class="upload-card-title">🪪 CNIC — Back</div>', unsafe_allow_html=True)
     cnic_back = st.file_uploader("CNIC Back", type=IMAGE_TYPES, key="cnic_back_u", label_visibility="hidden")
     if cnic_back:
-        st.image(cnic_back, caption="CNIC (back) preview", use_column_width=True)
+        st.image(cnic_back, caption="CNIC (back) preview", width=250)
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="upload-card"><div class="upload-card-title">🧾 Utility Bill</div>', unsafe_allow_html=True)
     utility = st.file_uploader("Utility Bill", type=IMAGE_TYPES, key="utility_u", label_visibility="hidden")
     if utility:
-        st.image(utility, caption="Utility Bill preview", use_column_width=True)
+        st.image(utility, caption="Utility Bill preview", width=250)
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown("")
