@@ -4,6 +4,6 @@
 
 streamlit==1.28.2
 ultralytics
-opencv-python
+opencv-python-headless
 numpy
-pillow
+pillow>=10.0,<11
